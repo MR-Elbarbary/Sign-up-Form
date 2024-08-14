@@ -1,0 +1,64 @@
+* {
+    font-family:Helvetica, Arial, sans-serif;
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+@font-face {
+    font-family:"logo";
+    src: url(fonts/BeautifulPeoplePersonalUse-dE0g.ttf);
+}
+
+body{
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+}
+
+.leftBlock{
+    flex: 1 1 auto;
+    background-image: url("image/bg4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+
+.rightBlock{
+    background-color:aliceblue;
+    width: 60vw;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.heading{
+    font-weight: bolder;
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: black;
+}
+
+form{
+    padding: 1rem 2rem;
+}
+
+.small{
+    font-size: 1rem;
+}
+
+p{
+    margin: 1.2rem;
+}
+
+a{
+    
+}
